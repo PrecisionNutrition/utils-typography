@@ -1,7 +1,7 @@
 {
   "name": "@precision-nutrition/utils-typography",
   "description": "Typography utilities CSS",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "style": "index.css",
   "files": [
     "index.css",
