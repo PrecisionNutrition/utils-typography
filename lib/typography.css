@@ -1,0 +1,107 @@
+/**
+ * @define utilities
+ * Typography Utilities
+*/
+
+/* Style */
+
+.u-bold {
+  font-weight: bold !important;
+}
+
+.u-semiBold {
+  font-weight: 600 !important;
+}
+
+.u-regular {
+  font-weight: normal !important;
+}
+
+.u-italic {
+  font-style: italic !important;
+}
+
+.u-caps {
+  letter-spacing: var(--caps-letter-spacing, 0.1em) !important;
+  text-transform: uppercase !important;
+}
+
+.u-capitalize {
+  text-transform: capitalize !important;
+}
+
+.u-underline {
+  text-decoration: underline !important;
+}
+
+.u-noDecoration {
+  text-decoration: none !important;
+}
+
+/**
+ * Enables font kerning in all browsers.
+ * http://blog.typekit.com/2014/02/05/kerning-on-the-web/
+ *
+ * 1. Chrome (not Windows), Firefox, IE 10+
+ * 2. Safari 7 and future browsers
+ * 3. Chrome (not Windows), Firefox, Safari 6+, iOS, Android
+ */
+
+.u-textKern {
+  font-feature-settings: "kern" 1; /* 1 */
+  font-kerning: normal; /* 2 */
+  text-rendering: optimizeLegibility; /* 3 */
+}
+
+/* Structure */
+
+.u-nowrap {
+  white-space: nowrap !important;
+}
+
+.u-breakWord {
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important; /* stylelint-disable-line rule-properties-order */
+}
+
+.u-lineHeight1 {
+  line-height: var(--line-height-1, 1) !important;
+}
+
+.u-lineHeight2 {
+  line-height: var(--line-height-2, 1.125) !important;
+}
+
+.u-lineHeight3 {
+  line-height: var(--line-height-3, 1.25) !important;
+}
+
+.u-lineHeight4 {
+  line-height: var(--line-height-4, 1.5) !important;
+}
+
+/* Alignment */
+
+.u-leftAlign {
+  text-align: left !important;
+}
+
+.u-centerAlign {
+  text-align: center !important;
+}
+
+.u-rightAlign {
+  text-align: right !important;
+}
+
+.u-justify {
+  text-align: justify !important;
+}
+
+.u-truncate {
+  max-width: 100% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
