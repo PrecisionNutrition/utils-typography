@@ -65,6 +65,10 @@
   overflow-wrap: break-word !important; /* stylelint-disable-line rule-properties-order */
 }
 
+.u-lineHeight0 {
+  line-height: var(--line-height-0, 0) !important;
+}
+
 .u-lineHeight1 {
   line-height: var(--line-height-1, 1) !important;
 }
@@ -79,6 +83,10 @@
 
 .u-lineHeight4 {
   line-height: var(--line-height-4, 1.5) !important;
+}
+
+.u-lineHeight5 {
+  line-height: var(--line-height-4, 2) !important;
 }
 
 /* Alignment */
